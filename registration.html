@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Live Virtual Class-Homepage</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script src="js/script.js"></script>
+    </head>
+    <body>
+        <header style="background-image: url(assets/head.jpg);width: 96%;height:150px;">
+            <h1>LIVE VIRTUAL CLASS</h1>
+            <h2>Register Here</h2>
+        </header>
+        <div id="social" class="social">
+            <a href="#" id="facebook">Facebook</a>
+            <a href="#" id="twitter">Twitter</a>
+            <a href="#" id="linkedin">LinkedIn</a>
+            <a href="#" id="whatsapp">Whatsapp</a>
+          </div>
+
+
+          <nav align=center id=navigation>
+            <ul>
+                <li><a href="index.html">HOME</a> </li>
+                <li><a href="course.html">COURSE</a> </li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="test.html">QUIZ</a></li>
+                <li><a href="details.html" id=contact>RESULT</a></li>
+                <li><a href="registration.html">REGISTRATION</a> </li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+        <section>
+            <article>
+                <div id=one>
+                    <iframe width="400" height="315" src="https://www.youtube.com/embed/ojDIEGAuZaU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <h2 style="color: black; text-align: center;">Live Virtual Class</h2>
+                </div>
+                <div id=two>
+
+                    <div id=for>
+                        
+                        <form method="POST" onsubmit="return sear()" name="search" id="search">
+                            <input type="text" placeholder="Search on google" name="sea" id="sea">
+                            <input type="submit" value="Search">
+                        </form>
+                        <form method="POST" onsubmit="return valid()" action="index.html" name="register" >
+                            <table id=regis>
+                                <tr><td>Enter Name:</td><td><input type="text" placeholder="Enter your name" name="name" id="te" onkeyup="inst(this.value)"></td><td><h2 id="inst"> </h2></td></tr>
+                                <tr><td>Enter Userame:</td><td><input type="text" placeholder="Enter your Username" name="username" id=te></td></tr>
+                                <tr><td>Gender:<br></td>
+                                    <td><input type="radio" name="gender" value="male" > Male &nbsp;</td>
+                                    <td><input type="radio" name="gender" value="female" > Female&nbsp; </td></tr>
+                                <tr><td> Course:</td>
+                                    <td><input type="checkbox" name="check1" value="java" > JAVA</td>
+                                    <td><input type="checkbox" name="check2" value="dotnet"> DOTNET</td>
+                                    <td><input type="checkbox" name="check3" value="sql" > MySQL</td>
+                                </tr>
+                                <tr><td><input type="submit" value="Submit" ></td></tr>
+                            </table>
+                        </form>
+                    </div>
+
+
+                    
+
+
+
+
+                </div>
+                <div id=three>
+                    <h2>Advertisements</h2>
+                    <img src="assets/ad1.png" width="500px" height="150px">
+                    <img src="assets/ad2.png" width="500px" height="150px">
+                    <img src="assets/ad3.jpg" width="500px" height="150px">
+                </div>
+            </article>
+        </section>
+        <footer align=center>
+            Created by Arpit Mandal
+            <br>&copy; 2020.
+        </footer>
+    </body>
+</html>

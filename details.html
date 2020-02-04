@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Live Virtual Class-Result</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script src=js/script.js></script>
+    </head>
+    <body>
+        <header style="background-image: url(assets/head.jpg);width: 96%;height:150px;">
+            <h1>LIVE VIRTUAL CLASS</h1>
+            <h2>Result-Calculator</h2>
+        </header>
+        <div id="social" class="social">
+            <a href="#" id="facebook">Facebook</a>
+            <a href="#" id="twitter">Twitter</a>
+            <a href="#" id="linkedin">LinkedIn</a>
+            <a href="#" id="whatsapp">Whatsapp</a>
+          </div>
+
+
+          <nav align=center id=navigation>
+            <ul>
+                <li><a href="index.html">HOME</a> </li>
+                <li><a href="course.html">COURSE</a> </li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="test.html">QUIZ</a></li>
+                <li><a href="details.html" id=contact>RESULT</a></li>
+                <li><a href="registration.html">REGISTRATION</a> </li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+        <section>
+            <article>
+                <div id=one>
+                    <iframe width="400" height="315" src="https://www.youtube.com/embed/ojDIEGAuZaU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <h2 style="color: black; text-align: center;">Live Virtual Class</h2>
+                </div>
+                <div id=two>
+                
+                    <form method="POST" name="calculate">
+                        <h2><br>
+                        Enter marks:<br><br>
+                        English:&nbsp;&nbsp;
+                        <input type="text" name="eng" class="marks" id="eng">
+                        G.K:&nbsp;&nbsp;
+                        <input type="text" name="gk" class="marks" id="gk">
+                        Maths:&nbsp;&nbsp;
+                        <input type="text" name="maths" class="marks" id="maths">
+                        <br><br>
+                        RESULT:<br>
+                        Total Marks:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="number" name="tot" class="marks" id="total"  readonly="readonly"><br>
+                         Highest Marks:&nbsp; <input type="number" name="high" class="marks" id="high"  readonly="readonly"><br>
+                        Percentage:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="number" name="perc" class="marks" id="percent"  readonly="readonly"><br>
+                        </h2><br>
+                        <input type="button" value="Calculate" onclick="cal()" >
+                    </form>
+                    
+
+                </div>
+                <div id=three>
+                    <h2>Advertisements</h2>
+                    <img src="assets/ad1.png" width="500px" height="150px">
+                    <img src="assets/ad2.png" width="500px" height="150px">
+                    <img src="assets/ad3.png" width="500px" height="150px">
+                </div>
+            </article>
+        </section>
+        <footer align=center>
+            Created by Arpit Mandal
+            <br>&copy; 2020.
+        </footer>
+    </body>
+</html>
